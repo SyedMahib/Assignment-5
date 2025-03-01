@@ -23,7 +23,7 @@ document.getElementById("task-5-btn").addEventListener("click",
 
         const ul = document.getElementById("activity-items");
         const li = document.createElement("li");
-        li.innerText = "You have completed the Task " + task5Title + " at";
+        li.innerText = `You have completed the Task ${task5Title} at ${new Date().toLocaleString()}`;
         // console.log(li);
 
         li.style.backgroundColor = "#F4F7FF";

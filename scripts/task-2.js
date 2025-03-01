@@ -23,7 +23,7 @@ document.getElementById("task-2-btn").addEventListener("click",
 
         const ul = document.getElementById("activity-items");
         const li = document.createElement("li");
-        li.innerText = "You have completed the Task " + task2Title + " at";
+        li.innerText = `You have completed the Task ${task2Title} at ${new Date().toLocaleString()}`;
         // console.log(li);
 
         li.style.backgroundColor = "#F4F7FF";
@@ -32,6 +32,7 @@ document.getElementById("task-2-btn").addEventListener("click",
         li.style.padding = "24px";
         li.style.borderRadius = "8px";
         li.style.fontWeight = "500";
+        // li.style.color = "#00d492";
       
         ul.appendChild(li);
 })
