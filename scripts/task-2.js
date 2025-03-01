@@ -32,7 +32,6 @@ document.getElementById("task-2-btn").addEventListener("click",
         li.style.padding = "24px";
         li.style.borderRadius = "8px";
         li.style.fontWeight = "500";
-        // li.style.color = "#00d492";
       
         ul.appendChild(li);
 })
