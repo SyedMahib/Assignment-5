@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,88 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/b740202a2d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1 class="text-7xl">Under construction</h1>
+
+<body class="bg-gray-100 pt-6">
+    <header class="mb-5">
+        <nav class="bg-white container mx-auto  rounded-2xl flex justify-between p-4">
+            <div class="flex justify-center items-center gap-3 text-3xl">
+                <img src="./assets/logo.png" alt="logo">
+                <h1>Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div id="back-btn" class="btn text-2xl p-7 bg-[#3752FD] text-white rounded-lg">Back to Desk</div>
+        </nav>
+    </header>
+    <main class="pb-8">
+        <h1 class="text-center text-4xl font-bold mt-5">Question and Answer</h1>
+        <section class="container mx-auto bg-white rounded-xl mt-8">
+            <div class="p-5 border-b-2 border-dashed border-gray-200">
+                <h2 class="text-3xl font-bold ">Question-1: What are the different ways to select an element in the DOM?
+                </h2>
+            </div>
+            <div class="p-5">
+                <p class="text-2xl font-medium text-gray-500">We can select an element in the DOM in various ways:</p>
+                <ul class="text-xl font-medium text-gray-500 list-disc p-7">
+                    <li>.getElementById</li>
+                    <li>.getElemenstByClassName</li>
+                    <li>.getElementsBTagNamey</li>
+                    <li>.querySelector</li>
+                    <li>.querySelectorAll</li>
+                </ul>
+            </div>
+        </section>
+        <section class="container mx-auto bg-white rounded-xl mt-8">
+            <div class="p-5 border-b-2 border-dashed border-gray-200">
+                <h2 class="text-3xl font-bold ">Question-2: What is the difference between innerHTML, innerText, and
+                    textContent?</h2>
+            </div>
+            <div class="p-5">
+                <p class="text-2xl font-medium text-gray-500"><span class="font-bold text-black">innerText :</span> The innerText property gives us just the text content of the element and its children. We can also add and remove the text <span class="pl-32">content of an element using innerText.</span> <br><br> <span class="font-bold text-black">innerHTML :</span> The innerHTML property gives the  HTMl content of an element. It allows us to control the inner contents such as HTMl tags <span class="pl-37">by adding and removing.</span> <br><br> <span class="font-bold text-black">textContent :</span> The textContent propertyand the innerText property is the same. The textContent property gives us the text contents of an <span class="pl-39">element without any HTML tags.</span> </p>
+            </div>
+        </section>
+        <section class="container mx-auto bg-white rounded-xl mt-8">
+            <div class="p-5 border-b-2 border-dashed border-gray-200">
+                <h2 class="text-3xl font-bold ">Question-3: What is event delegation in the DOM?</h2>
+            </div>
+            <div class="p-5">
+                <p class="text-2xl font-medium text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa dolorum et quidem, voluptatum veniam laboriosam officiis recusandae, soluta qui consequuntur
+                    facere nobis quam debitis quae neque explicabo voluptatibus sunt earum?</p>
+            </div>
+        </section>
+        <section class="container mx-auto bg-white rounded-xl mt-8">
+            <div class="p-5 border-b-2 border-dashed border-gray-200">
+                <h2 class="text-3xl font-bold ">Question-4: What is event bubbling in the DOM?</h2>
+            </div>
+            <div class="p-5">
+                <p class="text-2xl font-medium text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa dolorum et quidem, voluptatum veniam laboriosam officiis recusandae, soluta qui consequuntur
+                    facere nobis quam debitis quae neque explicabo voluptatibus sunt earum?</p>
+            </div>
+        </section>
+        <section class="container mx-auto bg-white rounded-xl mt-8">
+            <div class="p-5 border-b-2 border-dashed border-gray-200">
+                <h2 class="text-3xl font-bold ">Question-5: How do you create, add, and remove elements using
+                    JavaScript?</h2>
+            </div>
+            <div class="p-5">
+                <p class="text-2xl font-medium text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa dolorum et quidem, voluptatum veniam laboriosam officiis recusandae, soluta qui consequuntur
+                    facere nobis quam debitis quae neque explicabo voluptatibus sunt earum?</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./scripts/blog.js"></script>
+    <script src="./scripts/task-1.js"></script>
+    <script src="./scripts/task-2.js"></script>
+    <script src="./scripts/task-3.js"></script>
+    <script src="./scripts/task-4.js"></script>
+    <script src="./scripts/task-5.js"></script>
+    <script src="./scripts/task-6.js"></script>
+    <script src="./scripts/clear-btn.js"></script>
+    <script src="./scripts/dynamic-date.js"></script>
+    <script src="./scripts/theme.js"></script>
+    <script src="./scripts/back-btn.js"></script>
 </body>
+
 </html>
