@@ -21,9 +21,10 @@ document.getElementById("task-1-btn").addEventListener("click",
         task1Btn.setAttribute("disabled",true);
 
 
+
         const ul = document.getElementById("activity-items");
         const li = document.createElement("li");
-        li.innerText = `You have completed the Task ${task1Title} at ${new Date().toLocaleString()}`;
+        li.innerText = `You have completed the Task ${task1Title} at ${new Date().toLocaleTimeString()}`;
         console.log(li);
 
         li.style.backgroundColor = "#F4F7FF";
