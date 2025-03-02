@@ -22,7 +22,7 @@ document.getElementById("task-5-btn").addEventListener("click",
         alert("Board updated succesfully");
 
         if(left === 0){
-            alert("completed all");
+            alert("Congrats!!! You have completed all the current task");
         }
 
         task5Btn.setAttribute("disabled",true);

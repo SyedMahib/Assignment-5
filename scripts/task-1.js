@@ -21,7 +21,7 @@ document.getElementById("task-1-btn").addEventListener("click",
         alert("Board updated succesfully");
 
         if(left === 0){
-            alert("completed all");
+            alert("Congrats!!! You have completed all the current task");
         }
 
         task1Btn.setAttribute("disabled",true);
