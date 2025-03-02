@@ -18,6 +18,13 @@ document.getElementById("task-6-btn").addEventListener("click",
         // console.log(left);
         document.getElementById("task-left").innerText = left;
 
+
+        alert("Board updated succesfully");
+
+        if(left === 0){
+            alert("completed all");
+        }
+
         task6Btn.setAttribute("disabled",true);
 
 
@@ -34,4 +41,5 @@ document.getElementById("task-6-btn").addEventListener("click",
         li.style.fontWeight = "500";
 
         ul.appendChild(li);
+
 })

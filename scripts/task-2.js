@@ -18,6 +18,13 @@ document.getElementById("task-2-btn").addEventListener("click",
         // console.log(left);
         document.getElementById("task-left").innerText = left;
 
+
+        alert("Board updated succesfully");
+
+        if(left === 0){
+            alert("completed all");
+        }
+
         task2Btn.setAttribute("disabled",true);
 
 
