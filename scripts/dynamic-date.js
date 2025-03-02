@@ -1,7 +1,7 @@
 function dynamicDate(){
     const today = new Date();
 
-    let days = ["Sun ,", "Mon ,", "tue ,", "Wed ,", "Thu ,", "Fri ,", "Sat ,"];
+    let days = ["Sunday ,", "Monday ,", "tueday ,", "Wedday ,", "Thuday ,", "Friday ,", "Satday ,"];
     let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     const day= days[today.getDay()];
